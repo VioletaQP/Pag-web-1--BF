@@ -1,0 +1,158 @@
+/* line 1, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+a {
+  color: grey;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  color: black;
+  background-color: #86f00644;
+  padding: 5px;
+}
+
+/* line 9, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+a:hover {
+  background-color: #bed99c;
+}
+
+/* line 13, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.fuente {
+  font-style: italic;
+}
+
+/* line 16, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.negrita {
+  font-weight: bold;
+}
+
+/* line 19, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.comicSans {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* line 22, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.centrar {
+  text-align: center;
+}
+
+/* line 25, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.sacarSubrayado {
+  text-decoration: none;
+}
+
+/* line 28, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.FondoHeader {
+  background-image: url("http://static.colourlovers.com/images/patterns/5851/5851406.png?1578859241");
+}
+
+/* line 31, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+body {
+  font-family: 'Gupter', serif;
+}
+
+/* line 34, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.borde {
+  margin: 7px;
+  border-top: solid 5px #bed99c;
+  border-right: solid 5px #bed99c;
+  border-bottom: solid 5px #bed99c;
+  border-left: solid 5px #bed99c;
+}
+
+/* line 41, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+footer {
+  text-align: center;
+  margin: 20px;
+}
+
+/* line 45, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.imgPreguntas {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* line 49, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.imgvideo {
+  padding-left: 350px;
+  padding-right: 150px;
+}
+
+/* line 53, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.Imagen {
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+}
+
+/* line 58, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.Imagen2 {
+  position: absolute;
+  top: 50px;
+  left: 1320px;
+}
+
+/* line 63, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+header {
+  position: relative;
+}
+
+/* line 66, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+ul {
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+}
+
+/* line 70, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+/* line 73, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+ul ul li {
+  width: 100%;
+  display: block;
+}
+
+/* line 80, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+ul li:hover ul {
+  display: block;
+  border: none;
+}
+
+/* line 87, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+li {
+  display: inline-block;
+  width: 22%;
+  text-align: center;
+  position: relative;
+}
+
+/* line 94, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.scale:hover {
+  transition: 1s;
+  transform: rotatey(360deg);
+}
+
+/* line 99, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.contenedor {
+  width: 85%;
+  max-width: 680px;
+  padding: 0px;
+  border: 5px solid #253f0644;
+  margin: auto;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* line 108, ../../../Desktop/Curso Web 2/Pag web A1/Caso Sass/sass/scout.scss */
+.contenedor > div {
+  display: block;
+  padding: 10px;
+  color: black;
+  background: #86f00644;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+/*# sourceMappingURL=scout.css.map */

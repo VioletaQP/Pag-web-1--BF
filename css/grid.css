@@ -1,0 +1,5 @@
+.contenedor {
+    display:grid;
+    grid-template-columns:145px 70px 150px 150px 150px;
+    grid-gap:5px;
+}
